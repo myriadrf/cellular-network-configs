@@ -43,6 +43,6 @@ Any notes on observed performance.
 
 ## Changelog
 
-| Date    | Summary                       |
-|---------|----------|--------------------|
-|         |          |                    |
+| Version | Date     | Summary
+|---------|----------|--------------------
+|   0.0   |          |                    |
