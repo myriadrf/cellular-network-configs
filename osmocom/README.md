@@ -13,7 +13,7 @@ Set of configuration files tested working with the osmocom gsm stack and the Lim
 
 ## Software 
 
-LimeSuite: git checkout fe53178a
+LimeSuite: git checkout fe53178a<br/>
 osmo-trx latest from https://github.com/osmocom/osmo-trx/
 
 ### Driver stack
