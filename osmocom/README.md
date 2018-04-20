@@ -6,15 +6,15 @@ Set of configuration files tested working with the osmocom gsm stack and the Lim
 
 ## Hardware
 
-Work in progress..
 
-* LimeSDR hardware variant and board revision
-* Host computer basic specifications
-* Details of any other hardware used that may prove useful, e.g. duplexer
+* LimeSDR hardware v1.4s, fw=4, hw=4, protocolVersion=1
+* Host computer i7-3770 CPU @ 3.40GHz
+* Duplexer not tested, band GSM900, arfcn 975,  925.7MHz US ISM/Ham band
 
 ## Software 
 
-Note version can be release number or git commit and where it makes sense please link to the source.
+LimeSuite: git checkout fe53178a
+osmo-trx latest from https://github.com/osmocom/osmo-trx/
 
 ### Driver stack
 
@@ -27,19 +27,19 @@ SoapySDR      | Support library                  |v0.7.0    |           |
 
 COMPONENT     | DESCRIPTION                      | VERSION  | NOTES     |
 --------------|----------------------------------|----------|-----------|
-Component 1   |                                  |          |           |
+osmo-trx      |GSM Radio Modem                   | 0.3.0    |           |
 
 ## Configuration
 
-Description of config.
+Working config for single host
 
 ## Running
 
-How to start and ny notes on management.
+Start with osmo-trx -C <config file>    just start in directory with config file osmo-trx.cfg
 
 ## Performance
 
-Any notes on observed performance.
+Noticed recent 4/20/2018 improvement in LimeSDR support and gprs stability.
 
 ## Changelog
 
