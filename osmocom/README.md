@@ -35,7 +35,7 @@ Working config for single host
 
 ## Running
 
-Start with osmo-trx -C <config file> , or just start in directory with config file osmo-trx.cfg
+Start with osmo-trx -C \<config file\> , or just start in directory with config file osmo-trx.cfg
 
 ## Performance
 
