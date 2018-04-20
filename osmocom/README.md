@@ -20,8 +20,8 @@ Note version can be release number or git commit and where it makes sense please
 
 COMPONENT     | DESCRIPTION                      | VERSION  | NOTES     |
 --------------|----------------------------------|----------|-----------|
-Lime Suite    | LimeSDR driver                   |          |           |
-SoapySDR      | Support library                  |          |           |
+Lime Suite    | LimeSDR driver                   |v17.12.0  |v18 issues |
+SoapySDR      | Support library                  |v0.7.0    |           |
 
 ### Network stack
 
@@ -46,3 +46,4 @@ Any notes on observed performance.
 | Version | Date     | Summary
 |---------|----------|--------------------
 |   0.0   |4/20/2018 | added files        |
+|   0.1   |4/20/2018 | update vers        |
