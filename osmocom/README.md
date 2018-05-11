@@ -7,7 +7,7 @@ Set of configuration files tested working with the osmocom gsm stack and the Lim
 ## Hardware
 
 
-* LimeSDR hardware v1.4s, fw=4, hw=4, protocolVersion=1
+* LimeSDR-USB (2x2 MIMO) hardware v1.4s, fw=4, hw=4, protocolVersion=1
 * Host computer i7-3770 CPU @ 3.40GHz
 * Duplexer not tested, band GSM900, arfcn 975,  925.7MHz US ISM/Ham band
 
